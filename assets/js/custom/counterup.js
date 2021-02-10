@@ -1,1 +1,8 @@
-$(".counter-number").counterUp({delay:80,time:1500});
+
+
+
+// 
+$('.counter-number').counterUp({
+    delay: 80,
+    time: 1500
+});
