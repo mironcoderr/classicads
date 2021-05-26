@@ -1,0 +1,145 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?edb9e93862150b5628c794c3137c3ab7") format("truetype"),
+url("./flaticon.woff?edb9e93862150b5628c794c3137c3ab7") format("woff"),
+url("./flaticon.woff2?edb9e93862150b5628c794c3137c3ab7") format("woff2"),
+url("./flaticon.eot?edb9e93862150b5628c794c3137c3ab7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?edb9e93862150b5628c794c3137c3ab7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "header": "\f101",
+    "footer": "\f102",
+    "slider": "\f103",
+    "sidebar": "\f104",
+    "sidebar-1": "\f105",
+    "menu-1": "\f106",
+    "menu-2": "\f107",
+    "searching-bar": "\f108",
+    "message": "\f109",
+    "tabs": "\f10a",
+    "vote": "\f10b",
+    "website": "\f10c",
+    "table": "\f10d",
+    "fast-forward": "\f10e",
+    "drop-down-list": "\f10f",
+    "filter": "\f110",
+    "danger": "\f111",
+    "list": "\f112",
+    "poker-cards": "\f113",
+    "social-media": "\f114",
+    "category": "\f115",
+    "badge": "\f116",
+    "pagination": "\f117",
+    "chat": "\f118",
+    "notification": "\f119",
+    "email": "\f11a",
+    "file": "\f11b",
+    "star": "\f11c",
+    "menu-3": "\f11d",
+    "smartphone": "\f11e",
+);
+
+.flaticon-header:before {
+    content: map-get($flaticon-map, "header");
+}
+.flaticon-footer:before {
+    content: map-get($flaticon-map, "footer");
+}
+.flaticon-slider:before {
+    content: map-get($flaticon-map, "slider");
+}
+.flaticon-sidebar:before {
+    content: map-get($flaticon-map, "sidebar");
+}
+.flaticon-sidebar-1:before {
+    content: map-get($flaticon-map, "sidebar-1");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon-map, "menu-1");
+}
+.flaticon-menu-2:before {
+    content: map-get($flaticon-map, "menu-2");
+}
+.flaticon-searching-bar:before {
+    content: map-get($flaticon-map, "searching-bar");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-tabs:before {
+    content: map-get($flaticon-map, "tabs");
+}
+.flaticon-vote:before {
+    content: map-get($flaticon-map, "vote");
+}
+.flaticon-website:before {
+    content: map-get($flaticon-map, "website");
+}
+.flaticon-table:before {
+    content: map-get($flaticon-map, "table");
+}
+.flaticon-fast-forward:before {
+    content: map-get($flaticon-map, "fast-forward");
+}
+.flaticon-drop-down-list:before {
+    content: map-get($flaticon-map, "drop-down-list");
+}
+.flaticon-filter:before {
+    content: map-get($flaticon-map, "filter");
+}
+.flaticon-danger:before {
+    content: map-get($flaticon-map, "danger");
+}
+.flaticon-list:before {
+    content: map-get($flaticon-map, "list");
+}
+.flaticon-poker-cards:before {
+    content: map-get($flaticon-map, "poker-cards");
+}
+.flaticon-social-media:before {
+    content: map-get($flaticon-map, "social-media");
+}
+.flaticon-category:before {
+    content: map-get($flaticon-map, "category");
+}
+.flaticon-badge:before {
+    content: map-get($flaticon-map, "badge");
+}
+.flaticon-pagination:before {
+    content: map-get($flaticon-map, "pagination");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-notification:before {
+    content: map-get($flaticon-map, "notification");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-file:before {
+    content: map-get($flaticon-map, "file");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-menu-3:before {
+    content: map-get($flaticon-map, "menu-3");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
